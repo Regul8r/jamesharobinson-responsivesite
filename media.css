@@ -1,0 +1,129 @@
+
+
+body {
+    font-family: Arial;
+    font-size: 17pt;
+    background-color: darkseagreen;
+}
+
+h2 {
+    font-family: 'Henny Penny', cursive;
+    font-size: 35pt;
+}
+
+
+
+#social {
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map {
+    display: none;
+}
+
+
+
+.glowing1{
+    display: none;
+}
+
+#how{
+    display: none;
+}
+
+#food1, #food2, #food3, #food4 {
+    display: none;
+}
+
+#location, #contact {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+
+    body{
+        background-color: hwb(199 16% 18%);
+    }
+    #social {
+        width: 0px;
+        display: none;
+    }
+   
+   
+
+    #food1, #food2, #food3, #food4 {
+        display: block;    
+        font-family: 'Henny Penny', cursive;
+        font-size: 20pt;
+    
+    }
+   
+    #patty, #nachos, #sliders, #burger {
+        width: 500px;
+        height: 500px;
+       }
+    
+    #directions {
+        width: 0px;
+        display: none
+    }
+    #map {
+        display: none;
+    }
+
+    #contact {
+        display: block;    
+        font-size: 15pt;
+    }
+    #location, #description {
+        display: none;
+    }
+
+    .glowing{
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 768px)and (min-width: 320px)  {
+
+    #map {
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #how {
+        display: block;    
+            font-size: 15pt;
+        }
+
+    body {
+        background-color: #7171f6;
+    }
+
+    .glowing{
+        display: none;
+    }
+
+    #patty, #nachos, #sliders, #burger {
+        display: none;
+    }
+   
+    #social {
+        display: none;
+    }
+   
+
+    .footer {
+        display: none;
+    }
+
+    
+    
+}
